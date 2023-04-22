@@ -50,5 +50,9 @@ public class DatosDTO {
     public String toString() {
         return "Datos ->" + nombre + " " + edad + " " + correo;
     }
+
+    public String getEdad(Integer valueOf) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
        
 }
